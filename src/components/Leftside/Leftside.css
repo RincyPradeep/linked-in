@@ -1,0 +1,85 @@
+.home-left-section{
+    min-width:20%;
+    margin:10px;
+}
+.left-top-section, .left-bottom-section{
+    width:100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.left-top-section h4, .widget-icon, .plus-icon{
+    cursor: pointer;
+}
+.left-top-section h4:hover, .widget-icon:hover, .plus-icon:hover{
+    color: rgb(72, 72, 245);
+}
+.card-bg{
+    height:25%;
+    width:100%;
+    border-radius: 8px 8px 0 0;
+}
+.photo{
+    display: flex;
+    justify-content: center;
+}
+.photo img{
+    width:72px;
+    border-radius: 50%;
+    margin-top:-50px;
+    background-color: #fff;
+}
+.name-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding: 15px 10px;
+}
+.connection-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.connection-section img{
+    width:20px;
+}
+.item-section{
+    display: flex;
+    padding:15px 10px;
+}
+.left-bottom-section{
+    margin-top: 10px;
+}
+.left-bottom-data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    padding:15px 10px;
+}
+.left-bottom-data h4{
+    margin:8px;
+    cursor: pointer;
+}
+.left-bottom-data h4:hover{
+    color:rgb(72, 72, 245);
+}
+.left-bottom-section p{
+    padding:15px 10px;
+    cursor: pointer;
+}
+.left-bottom-section p:hover{
+    background-color: rgba(0,0,0,0.05);
+}
+
+/* --------------------------- */
+@media(max-width:768px){
+    .home-left-section{
+        /* margin-top:20px; */
+        width:100vw;
+    }
+}

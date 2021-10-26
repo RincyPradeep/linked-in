@@ -1,0 +1,33 @@
+.home-container{
+    padding:50px;
+}
+.home-top-section{
+    width:100%;
+    text-align: center;
+    text-decoration: underline;   
+    display: flex;
+    justify-content: center;
+}
+.home-top-section a{
+    color:rgb(22, 22, 253);
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+
+
+/* ------------------------------------ */
+@media(max-width:768px){
+    .top-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .home-content{
+        flex-direction: column;
+    }
+}
