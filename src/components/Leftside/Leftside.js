@@ -4,7 +4,7 @@ import "./Leftside.css";
 const Leftside = () => {
   return (
     <div className="home-left-section">
-      <div className="left-top-section">
+      <div className="left-top-section common-card">
         <img src="/images/card-bg.svg" alt="card" className="card-bg" />
         <div className="photo">
           <img src="/images/photo.svg" alt="photo" />
@@ -25,7 +25,7 @@ const Leftside = () => {
           <h4>My Items</h4>
         </div>
       </div>
-      <div className="left-bottom-section">
+      <div className="left-bottom-section common-card">
         <div className="left-bottom-data">
           <span>
             <h4>Groups</h4>

@@ -6,7 +6,7 @@ import { faHashtag } from '@fortawesome/free-solid-svg-icons'
 
 const Rightside = () => {
   return (
-    <div className="home-right-section">
+    <div className="home-right-section common-card">
       <div className="title-section">
         <p>Add to your feed</p>
         <img src="/images/feed-icon.svg" alt="feed-icon" />

@@ -2,12 +2,7 @@
     padding:15px 10px;
     min-width:25%;
     margin:10px;
-    /* margin-left:30px; */
     height:250px;
-    background-color: #fff;
-    color:rgba(0,0,0,0.6);
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 8px;
 }
 .title-section{
     display: flex;
@@ -58,8 +53,6 @@
 /* ---------------------------- */
 @media(max-width:768px){
     .home-right-section{
-        /* margin-top:20px;
-        margin-left:0; */
-        width:100vw;
+        width:100%;
     }
 }
